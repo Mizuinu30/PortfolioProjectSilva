@@ -3,7 +3,7 @@ SELECT *
  WHERE continent is not null
  ORDER BY 3,4
 
- ---Select Data We are going to be using
+ ---Select Data we are going to be using
 
  SELECT Location, date, total_cases, new_cases, total_deaths, population
  FROM PortfolioProject..CovidDeaths
